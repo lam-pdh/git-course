@@ -1,0 +1,39 @@
+#Git
+1. Giải thích các câu lệnh:
+- git init: Khởi tạo thư mục được quản lý bởi Git
+- git add <file_name>:add 1 file cu the vao Staging Area
+- git add .: add toan bo file trong vao Staging Area
+- git commit -m "message": commit cac file trong Staging Area len Repository
+
+2. Hãy tưởng tượng có 1 folder lesson-2 mới được tạo. Hãy liệt kê các file theo từng
+vùng sau khi thao tác một loạt các lệnh sau:
+
+a. Tạo 3 file: file1, file2, file3
+Working Directory: file1, file2, file3
+Staging Area: blank
+Repository: blank
+
+b. Chạy lệnh: git init 
+Working Directory: file1, file2, file3
+Staging Area: blank
+Repository: blank
+
+c. Chạy lệnh: git commit -m”init project” 
+Working Directory: file1, file2, file3
+Staging Area: blank
+Repository: blank
+
+d. Chạy lệnh: git add file1
+Working Directory: file1, file2, file3
+Staging Area: file1
+Repository:
+
+e. Chạy lệnh: git commit -m”add file1” 
+Working Directory: file1, file2, file3
+Staging Area: file1
+Repository: file1
+
+f. Chạy lệnh: git commit -m”add file” 
+Working Directory: file1, file2, file3
+Staging Area: blank
+Repository: blank
